@@ -1,0 +1,10 @@
+// This file overrides the built-in Python 3.4 runner
+// For more information see http://docs.c9.io:8080/#!/api/run-method-run
+{
+  "cmd": [
+    "python3",
+    "$file",
+    "$args"
+  ],
+  "selector": "^.*\\.(python|py)$"
+}
